@@ -1,6 +1,7 @@
 #OLD_045
 #21
 from random import randint
+from time import sleep
 
 cpu_player = randint(0,2)
 itens = ('Rock','Paper', 'Scissors')
@@ -8,6 +9,13 @@ player = int(input('[0] -> Rock\n'+
       '[1] -> Paper\n'+
       '[2] -> Scissors\n' +
       'Choose a Number: '))
+
+print('1')
+sleep(1)
+print('2')
+sleep(1)
+print('3\n')
+
 print('-=' * 12)
 print('You choose: {}'.format(itens[player]))
 print('The CPU choose: {}'.format(itens[cpu_player]))
