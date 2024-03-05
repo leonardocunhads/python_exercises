@@ -14,7 +14,7 @@ print('1')
 sleep(1)
 print('2')
 sleep(1)
-print('3\n')
+print('3')
 
 print('-=' * 12)
 print('You choose: {}'.format(itens[player]))
@@ -52,3 +52,4 @@ elif cpu_player == 2:
         print('TIE!')
     else:
         print('Invalid play!')
+print('-=' * 12)
