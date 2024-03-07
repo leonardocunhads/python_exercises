@@ -5,11 +5,26 @@ name = 'José'
 greeting = 'Hello, Bruno'
 
 print(greeting)
+print('-' * 12)
 
 # -------------------------------
 
-greeting = f'Hello, {name}'
-print(greeting)
+print(f'Hello, {name}')
+print('-' * 12)
 
-greeting = 'Hello, {}'.format(name)
-print(greeting)
+print('Hello, {}'.format(name))
+print('-' * 12)
+
+greeting = 'Hello, {}'
+
+with_name = greeting.format("Marcos")
+
+print(with_name)
+
+# -------------------------------
+print('-' * 12)
+longer_phrase = 'Hello, {}. Today is {}'
+
+formatted = longer_phrase.format('Junior', "Saturday")
+
+print(formatted)
